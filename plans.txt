@@ -1,0 +1,13 @@
+```
+Update: 
+removed all $ commands except $quote
+
+Devil Bot might get a name change. 
+I want to make 3 to 5 "Devil Bots"
+This bot reacts to achievements. 
+I will add actual commands instead of just "if message start with $"
+More updates incoming. I'm also learning.
+
+~ C.
+
+```

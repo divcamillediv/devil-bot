@@ -1,0 +1,23 @@
+from replit import db
+
+#make bot say custom messages using $random
+bot_random = ["Hello"]
+
+#update bot quotes in achievement
+def bot(bot_message):
+    if "bot_quote" in db.keys():
+        bot_quote = db["bot_quote"]
+        bot_quote.append(bot_message)
+        db["bot_quote"] = eternal_bot
+    else:
+        db["bot_quote"] = [bot_message]
+
+
+#delete bot quotes
+def delete_bot(index):
+    bot_quote = db["bot_quote"]
+    if len(bot_quote) > index:
+        del bot_quote[index]
+        db["bot_quote"] = bot_quote
+
+#code qui marche pas et que j'arrive pas a faire fonctionner
